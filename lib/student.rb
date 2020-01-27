@@ -20,7 +20,8 @@ class Student
   end
   
   def self.drop_table
-    
+    DELETE FROM students
+  end
     
   
 end
